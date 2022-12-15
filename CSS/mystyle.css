@@ -1,0 +1,254 @@
+@charset "utf-M"; 
+
+body  {
+    background-image: url(C:/Users/yazva/Desktop/background.jpg);
+    background-size: cover; 
+    font-family: Verdana;
+    }
+
+
+a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 25px;
+}
+
+h2 {
+    color: azure;
+    font-size: 20px; 
+    margin: -20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: dimgray;
+}
+
+#container {
+    background-color: none
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin right: auto;
+}
+
+.header {
+    color: azure;
+    text-align: left;
+    padding: 15px; 
+}
+
+.content {
+    padding: 0;
+}
+
+/*
+.topnav {
+    width: 10px;
+    background-color: aquamarine;
+    line-height: 35px;
+    float: left; 
+}*/
+
+.topnav a {
+    display: block; border-bottom-style: groove;
+    color: azure;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none; 
+}
+
+.topnav ul{
+   float: left; 
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: azure;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+    
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;    
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: lightgrey;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+    
+.topnav ul li ul li {
+    padding: 8px 14px;
+}   
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+topnav ul li ul li a: hover {
+    background-color: beige;
+
+}
+
+.slider_image {
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: darkgoldenrod;
+    padding: 20px;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    background-color: lightslategrey;
+    color: darkgoldenrod;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+    
+}
+
+
+.flex-container2 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: lightslategrey;
+    color: azure;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container3 > div {
+    background-color: none;
+    color: azure;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    
+}
+
+.flex-container4 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container4 > div {
+    background-color: lightslategrey;
+    color: darkgoldenrod;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+    
+}
+
+.flex-container5 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container5 > div {
+    background-color: lightslategrey;
+    color: darkgoldenrod;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+    
+}
+
+.flex-container6 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container6 > div {
+    background-color: lightslategrey;
+    color: darkgoldenrod;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+    
+}
+
+flex-container7 {
+    display: flex;
+    background-color: burlywazood;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container7 > div {
+    background-color: lightslategrey;
+    color: darkgoldenrod;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 1px;
+    font-size: 30px;
+    
+}
+    
+.footer {
+    text-align: center: 
+}
+
+
+
